@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+# Add executable permission to this script
+chmod +x "$0"
+
 # Pull the Docker image from Docker Hub
 docker pull abhishek80/simple-python-flask-app
 
